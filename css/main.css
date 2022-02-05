@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* reset CSS*/
+*{
+    box-sizing: border-box;
+}
+body,h1,h2,h3,h4,figure,picture,p{
+    margin: 0;
+    
+}
+h1,h2,h3,h4,p{
+    font-weight: 400;
+}
+body{
+    color: var(--clr-dark);
+    background-color:var(--clr-white);
+    line-height: 1.5;
+    min-height: 100vh;
+    max-width: 75rem;
+    margin-inline: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+img,picture{
+    max-width: 100%;
+    display: block;
+}
+input,button,textarea,select{
+    font: inherit;
+}
+
+ 
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem .5rem;   
+    flex-wrap: wrap;
+    
+}
+.navbar-right{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    padding-left: 0;
+}
+.links{
+    color: var(--clr-dark);
+    text-decoration: none;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 3rem;
+}
+.content-container{
+    flex-basis: 50%;
+    padding-top: 2rem;
+}
+.content-container > h2{
+    padding-bottom: 1rem;
+}
+.hero-image--container{
+    flex-basis: 50%;
+}
+.hero-img{
+    width: 100%;
+    object-fit: cover;
+}
+.buttons{
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn-container{
+    padding: 2rem 0;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    
+}
+.hero-btn{
+    background-color: var(--clr-dark);
+    color: var(--clr-white);
+}
+.hero-btn:hover{
+    opacity: 0.8;
+}
+.hero-btn--outline{
+    border: 1px solid #e0e0e0;
+    background-color: var(--clr-white);
+}
+.hero-btn--outline:hover{
+    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.2);
+    transition: box-shadow 300ms ease 0ms;
+}
+.content-container>p{
+    padding: 1rem 0;
+}
+
+.main-container {
+    display: flex;
+    padding: 2rem;
+}
+
+.side-bar {
+padding: 2rem;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+border-right: 1px solid #d9d9d9;
+min-width: 15rem;
+}
+
+.side-bar h3 {
+border-bottom: 1px solid #d9d9d9;
+padding: 0.5rem;
+}
+
+.intro-list,
+.component-list {
+padding-left: 0;
+list-style: none;
+}
+.intro-list li,
+.component-list li {
+padding: 0.5rem;
+}
+
+.intro-list li:hover,
+.component-list li:hover {
+font-weight: 600;
+background: #d9d9d9;
+border-radius: 4px;
+}
+
+.doc-content {
+flex-grow: 1;
+padding: 2rem;
+}
+
+.component-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+border: 1px solid #d9d9d9;
+border-radius: 10px;
+gap: 1.5rem;
+padding: 2rem;
+}
+
+.component-container:hover {
+box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+transition: box-shadow 300ms ease 0ms;
+}
+
+

@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+
+/* Custom Properties */
+/* ---------------- */
+:root{
+    --clr-white: #ffffff;
+    --clr-secondary: #ad80db;
+    --clr-primary: #3ab4f8;
+    --clr-dark: #0d160b;
+    --clr-gray: ##d9d9d9;
+    --clr-success:#009485;
+    --clr-failure:#ff5724;
+    --clr-warning:##ff9900;
+    --clr-primary-light:#e8f4fe;
+    --clr-success-light:#e5f4f3;
+    --clr-failure-light:#ffeee9;
+    --clr-warning-light:#fff5e5;
+
+
+     /* font sizes*/
+     --fs-5xl: 9.375rem;
+     --fs-4xl: 6.25rem;
+     --fs-3xl: 4.5rem;
+     --fs-2xl: 2rem;
+     --fs-xl: 1.75rem;
+     --fs-large: 1.125rem;
+     --fs-normal: 1rem;
+     --fs-sm: 0.875rem;
+
+     /* font weights */
+     --fw-xbold:900;
+     --fw-bold:600;
+     --fw-semibold:500;
+     --fw-normal:400;
+     --fw-light:200;
+}
+
+/* Utility classes for text colors */
+
+.text-dark {
+    color: var(--clr-dark);
+}
+.text-white {
+    color: var(--clr-white);
+}
+
+/* Utility classes for text */
+
+.text-4xl {
+    font-size: var(--fs-4xl);
+}
+.text-3xl {
+    font-size: var(--fs-3xl);
+}
+.text-2xl {
+    font-size: var(--fs-2xl);
+}
+.text-xl {
+    font-size: var(--fs-xl);
+}
+.text-large {
+    font-size: var(--fs-large);
+}
+.text-normal {
+    font-size: var(--fs-normal);
+}
+.text-sm {
+    font-size: var(--fs-sm);
+}
+.text-center {
+    text-align: center;
+}
+.ff-title {
+    font-family: "Pacifico", cursive;
+}
+.fw-semibold {
+    font-weight: 500;
+}
+.fw-bold {
+    font-weight: 600;
+}
+.fw-xbold {
+    font-weight: 900;
+}
+
+/* Utility class for flex column */
+.items-col {
+    flex-direction: column;
+}
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
+.material-icons.md-24 {
+    font-size: 24px;
+}
+.material-icons.md-36 {
+    font-size: 36px;
+}
+.material-icons.md-48 {
+    font-size: 48px;
+}
