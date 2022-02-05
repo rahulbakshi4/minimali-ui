@@ -1,0 +1,27 @@
+/* default avatar */
+.avatar {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+}
+
+/* avatars with different sizes */
+.avatar-small {
+    width: 3rem;
+    height: 3rem;
+}
+
+.avatar-medium {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.avatar-large {
+    width: 4rem;
+    height: 4rem;
+}
+
+/* squared avatar */
+.avatar-sq {
+    border-radius: 5px;
+}

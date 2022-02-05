@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../../css/main.css">
+    <link rel="stylesheet" href="./../../css/components.css">
+    <link rel="stylesheet" href="./../Avatars/avatar.css">
+    <link rel="stylesheet" href="./badge.css">
+    <title>minimali ui: Badges</title>
+</head>
+
+<body class="bg-white">
+    <nav class="navbar">
+        <h2 class="text-2xl ff-title fw-semibold">minimali.</h2>
+        <ul class="navbar-right text-normal">
+            <li><a class="links" href="">Home</a></li>
+            <li><a class="links" href="">Docs</a></li>
+            <li><a class="links" href="">Github</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-container">
+        <section class="side-bar">
+
+             <!-- Introduction List Items -->
+            <div>
+                <h3 class="fw-bold text-large">Getting Started</h3>
+                <ul class="text-sm intro-list">
+                    <li>
+                        <a class="links" href="#">Introduction</a>
+                    </li>
+                    <li>
+                        <a class="links" href="#">Colors</a>
+                    </li>
+                    <li>
+                        <a class="links" href="#">Typography</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Component list Items -->
+            <div>
+                <h3 class="fw-bold text-large">Components</h3>
+                <ul class="text-sm component-list">
+                    <li>
+                        <a class="links" href="avatar.html">Avatars</a>
+                    </li>
+                    <li>
+                        <a class="links" href="alert.html">Alert</a>
+                    </li>
+                    <li>
+                        <a class="links" href="badge.html">Badges</a>
+                    </li>
+                    <li>
+                        <a class="links" href="button.html">Button</a>
+                    </li>
+                    <li>
+                        <a class="links" href="#">Cards</a>
+                    </li>
+                    <li>
+                        <a class="links" href="image.html">Images</a>
+                    </li>
+                    <li>
+                        <a class="links" href="#">Input</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="doc-content">
+            <h3 class="fw-bold text-2xl">
+                Badges
+            </h3>
+            
+            <!-- Badges on Avatar -->
+            <div class="component-container">
+                <div class="badge">
+                    <img class="avatar"
+                        src="https://res.cloudinary.com/rahulb4/image/upload/v1643855031/peep_rssuj0.png" alt="avatar with online state" />
+                    <div class="state-div state--online"></div>
+                </div>
+                <div class="badge">
+                    <img class="avatar"
+                        src="https://res.cloudinary.com/rahulb4/image/upload/v1643855031/peep_rssuj0.png" alt="avatar with offline state" />
+                    <div class="state-div state--offline"></div>
+                </div>
+                <div class="badge">
+                    <img class="avatar"
+                        src="https://res.cloudinary.com/rahulb4/image/upload/v1643855031/peep_rssuj0.png" alt="avatar with dnd state" />
+                    <div class="state-div state--dnd"></div>
+                </div>
+            </div>
+ 
+            <!-- Code Snippet -->
+            <script
+                src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2Fbadge.html&style=github-gist&showBorder=on&showCopy=on"></script>
+            
+            <!-- Badges on Icon -->
+            <div class="component-container">
+                <div class="badge">
+                    <img src="https://res.cloudinary.com/rahulb4/image/upload/v1643872459/mail_outline_black_48dp_unwlek.svg"
+                        alt="email icon" />
+                    <span class="number-count">24</span>
+                </div>
+                <div class="badge">
+                    <img src="https://res.cloudinary.com/rahulb4/image/upload/v1643872519/shopping_cart_black_24dp_bpudr8.svg"
+                        alt="cart icon" />
+                    <span class="number-count">4</span>
+                </div>
+            </div>
+
+            <!-- Code Snippet -->
+            <script
+                src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FbadgeIcon.html&style=github-gist&showBorder=on&showLineNumbers=on&showCopy=on"></script>
+        </section>
+    </main>
+</body>
+
+</html>
