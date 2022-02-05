@@ -1,0 +1,118 @@
+.btn {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 0;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--clr-dark);
+    color: var(--clr-white);
+}
+
+/* Button color classes */
+
+.btn-primary {
+    background-color: var(--clr-primary);
+}
+.btn-secondary {
+    background-color: var(--clr-secondary);
+}
+.btn-success {
+    background-color: var(--clr-success);
+}
+.btn-danger {
+    background-color: var(--clr-failure);
+}
+.btn-ghost {
+    background: none;
+    color: var(--clr-dark);
+}
+.btn-ghost:hover {
+    background-color: var(--clr-gray);
+}
+.btn-link {
+    background: none;
+    color: var(--clr-primary);
+}
+.btn-link:hover {
+    text-decoration: underline;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* outlined buttons */
+
+.outlined {
+    border: 1px solid var(--clr-dark);
+    color: var(--clr-dark);
+    background: var(--clr-white);
+}
+.outlined-primary {
+    border: 1px solid var(--clr-primary);
+    color: var(--clr-primary);
+    background: var(--clr-white);
+}
+.outlined-secondary {
+    border: 1px solid var(--clr-secondary);
+    color: var(--clr-secondary);
+    background: var(--clr-white);
+}
+.outlined-success {
+    border: 1px solid var(--clr-success);
+    color: var(--clr-success);
+    background: var(--clr-white);
+}
+.outlined-danger {
+    border: 1px solid var(--clr-failure);
+    color: var(--clr-failure);
+    background: var(--clr-white);
+}
+
+.outlined:hover {
+    background-color: var(--clr-dark);
+    color: var(--clr-white);
+}
+.outlined-primary:hover {
+    background: var(--clr-primary);
+    color: var(--clr-white);
+}
+.outlined-secondary:hover {
+    background: var(--clr-secondary);
+    color: var(--clr-white);
+}
+
+.outlined-success:hover {
+    background: var(--clr-success);
+    color: var(--clr-white);
+}
+.outlined-danger:hover {
+    background: var(--clr-failure);
+    color: var(--clr-white);
+}
+
+/* Icon Buttons */
+
+.icon-text-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.icon-btn {
+    border: 0 ;
+    background: none;
+    cursor: pointer;
+    padding: .5rem;
+}
+
+.icon-btn:hover{
+    border-radius: 50%;
+    background-color: var(--clr-gray);
+}
+.action-btn {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
