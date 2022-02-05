@@ -1,0 +1,39 @@
+.badge {
+    position: relative;
+}
+
+.state-div {
+    position: absolute;
+    bottom: 4px;
+    right: 2px;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--clr-white);
+}
+.state--offline {
+    background-color: var(--clr-failure);
+}
+.state--online {
+    background-color: var(--clr-success);
+}
+.state--dnd {
+    background-color: var(--clr-gray);
+}
+
+.number-count {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.25rem;
+    height: 1.25rem;
+    top: -4px;
+    right: -4px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    background: var(--clr-dark);
+    color: var(--clr-white);
+}
+  
