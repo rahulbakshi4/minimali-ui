@@ -1,0 +1,152 @@
+.card-container {
+    position: relative;
+    margin: 0.75rem;
+    display: flex;
+}
+.card {
+    position: relative;
+    background-color: var(--clr-white);
+    max-width: 19rem;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.card-heading {
+    padding: 1rem;
+    line-height: 2rem;
+}
+.card-desc {
+    padding: 0.5rem 1rem;
+}
+.card-img {
+    object-fit: contain;
+    border-radius: 8px 8px 0 0;
+}
+.card-footer {
+    padding: 1rem 0.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.text-content {
+    margin-bottom: 2rem;
+}
+  
+.card-dark {
+    background-color: var(--clr-dark);
+    color: var(--clr-white);
+}
+  
+  
+.badge-tag {
+    position: absolute;
+    top: 1rem;
+    background: var(--clr-white);
+    padding: 0 0.5rem;
+    border-radius: 0 4px 4px 0;
+}
+  /* Horizontal Card */
+  /* --------------- */
+.h-card {
+    display: flex;
+    max-width: 30rem;
+    padding: 2rem;
+    gap: 0.5rem;
+}
+
+.h-card-img {
+    object-fit: cover;
+    max-width: 12rem;
+    height: 12rem;
+}
+ 
+.btn-left,
+.btn-right {
+    display: flex;
+}
+  
+/* Text-Overlay */
+/* ------------ */
+.heading-overlay {
+    position: absolute;
+    top: 9rem;
+    color: var(--clr-white);
+}
+  
+/* Ecommerce Product Card */
+/* ---------------------- */
+.ecom-card {
+    position: relative;
+    margin: 0.75rem 1rem;
+    padding: 0.5rem;
+    background-color: #ffffff;
+    max-width: 24rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+  
+.product-div {
+    overflow-x: hidden;
+    position: relative;
+    border-radius: 1rem;
+}
+  
+.product-img {
+    object-fit: cover;
+    height: 12rem;
+    border-radius: 1rem;
+}
+  
+.icon-div {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 0.4rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+  
+.product-details {
+    display: flex;
+    padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    justify-content: space-between;
+    border-top-width: 1px;
+}
+  
+.product-name {
+    margin-bottom: 0;
+    margin-right: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+}
+.product-price {
+    font-size: 1rem;
+    margin-top: 0;
+}
+  
+.cart-icon {
+    position: absolute;
+    right: 0.75rem;
+    bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+  
+.cart-icon:hover {
+    background-color: #d9d9d9;
+}
+  
