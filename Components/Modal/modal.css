@@ -1,0 +1,29 @@
+.modal {
+    max-width: 30rem;
+    padding: 1rem;
+}
+.modal-footer {
+    display: flex;
+    gap: 0.5rem;
+}
+.modal-input {
+    flex-grow: 1;
+}
+.modal-btn {
+    margin-left: auto;
+}
+.modal-container {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 80vh;
+    padding: 2rem;
+    border-radius: 1rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+}
+  
