@@ -76,14 +76,21 @@
 .ff-title {
     font-family: "Pacifico", cursive;
 }
+
+.fw-normal{
+    font-weight: var(--fw-normal);
+}
+.fw-light{
+    font-weight: var(--fw-light);
+}
 .fw-semibold {
-    font-weight: 500;
+    font-weight: var(--fw-semibold);
 }
 .fw-bold {
-    font-weight: 600;
+    font-weight: var(--fw-bold);
 }
 .fw-xbold {
-    font-weight: 900;
+    font-weight: var(--fw-xbold);
 }
 
 /* Utility class for flex column */
