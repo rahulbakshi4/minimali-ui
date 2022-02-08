@@ -1,0 +1,23 @@
+.toast {
+    padding: 0.5rem 1rem;
+    max-width: 18rem;
+    border-radius: 4px;
+    display: none;
+  }
+  .toast-success {
+    border-top: 1px solid #009485;
+    border-right: 1px solid #009485;
+    border-bottom: 1px solid #009485;
+    border-left: 4px solid #009485;
+    color: #009485;
+    background-color: #e5f4f3;
+  }
+  .toast-error {
+    border-top: 1px solid #ff5724;
+    border-right: 1px solid #ff5724;
+    border-bottom: 1px solid #ff5724;
+    border-left: 4px solid #ff5724;
+    color: #ff5724;
+    background-color: #ffeee9;
+  }
+  
