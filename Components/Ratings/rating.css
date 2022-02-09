@@ -1,8 +1,8 @@
 .rated {
-    color: rgb(255, 227, 0);
-  }
+    color: var(--clr-accent);
+}
   
-  .ratings > span {
+.ratings > span {
     cursor: pointer;
-  }
+}
   

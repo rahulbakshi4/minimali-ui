@@ -5,19 +5,15 @@
     display: none;
   }
   .toast-success {
-    border-top: 1px solid #009485;
-    border-right: 1px solid #009485;
-    border-bottom: 1px solid #009485;
-    border-left: 4px solid #009485;
-    color: #009485;
-    background-color: #e5f4f3;
+    border: 1px solid var(--clr-success);
+    border-left-width: 4px;
+    color: var(--clr-success);
+    background-color: var(--clr-success-light);
   }
   .toast-error {
-    border-top: 1px solid #ff5724;
-    border-right: 1px solid #ff5724;
-    border-bottom: 1px solid #ff5724;
-    border-left: 4px solid #ff5724;
-    color: #ff5724;
-    background-color: #ffeee9;
+    border: 1px solid var(--clr-failure);
+    border-left-width: 4px;
+    color: var(--clr-failure);
+    background-color: var(--clr-failure-light);
   }
   
