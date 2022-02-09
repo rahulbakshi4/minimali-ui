@@ -1,0 +1,19 @@
+.toast {
+    padding: 0.5rem 1rem;
+    max-width: 18rem;
+    border-radius: 4px;
+    display: none;
+  }
+  .toast-success {
+    border: 1px solid var(--clr-success);
+    border-left-width: 4px;
+    color: var(--clr-success);
+    background-color: var(--clr-success-light);
+  }
+  .toast-error {
+    border: 1px solid var(--clr-failure);
+    border-left-width: 4px;
+    color: var(--clr-failure);
+    background-color: var(--clr-failure-light);
+  }
+  
