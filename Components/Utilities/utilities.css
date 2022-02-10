@@ -1,0 +1,87 @@
+/* Utility classes for background color */
+.bg-dark {
+    background-color: var(--clr-dark);
+  }
+  .bg-white {
+    background-color: var(--clr-white);
+  }
+  .bg-gray {
+    background-color: var(--clr-gray);
+  }
+  
+  /* Utility classes for text colors */
+  .text-dark {
+    color: var(--clr-dark);
+  }
+  .text-white {
+    color: var(--clr-white);
+  }
+  .text-gray {
+    color: var(--clr-gray);
+  }
+  
+  /* Utility classes for text-size */
+  .text-5xl {
+    font-size: var(--fs-5xl);
+  }
+  .text-4xl {
+    font-size: var(--fs-4xl);
+  }
+  .text-3xl {
+    font-size: var(--fs-3xl);
+  }
+  .text-2xl {
+    font-size: var(--fs-2xl);
+  }
+  .text-xl {
+    font-size: var(--fs-xl);
+  }
+  .text-large {
+    font-size: var(--fs-large);
+  }
+  .text-normal {
+    font-size: var(--fs-normal);
+  }
+  .text-sm {
+    font-size: var(--fs-sm);
+  }
+  
+  /* Utility classes for text-alignment */
+  .text-center {
+    text-align: center;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .text-right {
+    text-align: right;
+  }
+  
+  /* Utility classes for font-weight */
+  .fw-normal {
+    font-weight: var(--fw-normal);
+  }
+  .fw-light {
+    font-weight: var(--fw-light);
+  }
+  .fw-semibold {
+    font-weight: var(--fw-semibold);
+  }
+  .fw-bold {
+    font-weight: var(--fw-bold);
+  }
+  .fw-xbold {
+    font-weight: var(--fw-xbold);
+  }
+  
+  /* Utility class for flex  */
+  .items-col {
+    flex-direction: column;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .items-base {
+    align-items: baseline;
+  }
+  

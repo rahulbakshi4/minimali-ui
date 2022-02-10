@@ -1,0 +1,49 @@
+.list-group {
+    width: 12rem;
+    padding: 1rem 0.25rem;
+    list-style-type: none;
+    background-color: var(--clr-gray);
+  }
+  .list-title {
+    border-bottom: 1px solid var(--clr-dark);
+    padding: 0.5rem 1rem;
+  }
+  
+  .list-item {
+    padding: 0.5rem 1.5rem;
+  }
+  
+  .list-disc {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+  
+  .list-decimal {
+    list-style-type: decimal;
+    list-style-position: inside;
+  }
+  
+  .list-item:hover {
+    background: var(--clr-white);
+  }
+  
+  .stacked-list {
+    padding: 1rem;
+    list-style-type: none;
+  }
+  .stacked-items {
+    border-bottom: 1px solid var(--clr-gray);
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    width: 20rem;
+  }
+  .stacked-items:hover {
+    background-color: var(--clr-gray);
+  }
+  .stacked-btn {
+    margin-left: auto;
+  }
+  
