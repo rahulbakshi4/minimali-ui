@@ -1,6 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url(../Components/Alerts/alert.css);
+@import url(../Components/Avatars/avatar.css);
+@import url(../Components/Badges/badge.css);
+@import url(../Components/Buttons/button.css);
+@import url(../Components/Cards/card.css);
+@import url(../Components/Grids/grid.css);
+@import url(../Components/Images/image.css);
+@import url(../Components/Inputs/input.css);
+@import url(../Components/List/list.css);
+@import url(../Components/Modal/modal.css);
+@import url(../Components/Navigation/navigation.css);
+@import url(../Components/Ratings/rating.css);
+@import url(../Components/Toast/toast.css);
 @import url(../Components/Utilities/utilities.css);
 
 /* Custom Properties */
