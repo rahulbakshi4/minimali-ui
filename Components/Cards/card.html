@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="./../../css/main.css">
     <link rel="stylesheet" href="./../../css/components.css">
 
-    <title>minimali ui: Cards</title>
+    <title>Minimali ui: Cards</title>
 </head>
 
 <body class="bg-white">
     <nav class="navbar">
         <h2 class="text-2xl ff-title fw-semibold">minimali.</h2>
         <ul class="navbar-right text-normal">
-            <li><a class="links" href="">Home</a></li>
-            <li><a class="links" href="">Docs</a></li>
-            <li><a class="links" href="">Github</a></li>
+            <li><a class="links" href="../../index.html">Home</a></li>
+            <li><a class="links" href="../../Getting-Started/Introduction/">Docs</a></li>
+            <li><a class="links" href="https://github.com/rahulbakshi4/minimali-ui">Github</a></li>
         </ul>
     </nav>
 
@@ -29,13 +29,16 @@
                 <h3 class="fw-bold text-large">Getting Started</h3>
                 <ul class="text-sm intro-list">
                     <li>
-                        <a class="links" href="#">Introduction</a>
+                        <a class="links" href="../../Getting-Started/Introduction/introduction.html">Introduction</a>
                     </li>
                     <li>
-                        <a class="links" href="#">Colors</a>
+                        <a class="links" href="../../Getting-Started/Colors/color.html">Colors</a>
                     </li>
                     <li>
-                        <a class="links" href="#">Typography</a>
+                        <a class="links" href="../../Getting-Started/IconsFont/icon_font.html">Icons & Font</a>
+                    </li>
+                    <li>
+                        <a class="links" href="../../Components/Utilities/utilities.html">Utilities</a>
                     </li>
                 </ul>
             </div>
@@ -45,25 +48,31 @@
                 <h3 class="fw-bold text-large">Components</h3>
                 <ul class="text-sm component-list">
                     <li>
-                        <a class="links" href="../Avatars/avatar.html">Avatars</a>
-                    </li>
-                    <li>
                         <a class="links" href="../Alerts/alert.html">Alert</a>
                     </li>
                     <li>
-                        <a class="links" href="../Badges/badge.html">Badges</a>
+                        <a class="links" href="../Avatars/avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                        <a class="links" href="../Badges/badge.html">Badge</a>
                     </li>
                     <li>
                         <a class="links" href="../Buttons/button.html">Button</a>
                     </li>
-                    <li>
-                        <a class="links" href="./card.html">Cards</a>
+                    <li class="active">
+                        <a class="links" href="./card.html">Card</a>
                     </li>
                     <li>
-                        <a class="links" href="../Images/image.html">Images</a>
+                        <a class="links" href="../Grids/grid.html">Grid</a>
+                    </li>
+                    <li>
+                        <a class="links" href="../Images/image.html">Image</a>
                     </li>
                     <li>
                         <a class="links" href="../Inputs/input.html">Input</a>
+                    </li>
+                    <li>
+                        <a class="links" href="../List/list.html">List</a>
                     </li>
                     <li>
                         <a class="links" href="../Modal/modal.html">Modal</a>
@@ -77,24 +86,28 @@
                     <li>
                         <a class="links" href="../Toast/toast.html">Toast</a>
                     </li>
-                    <li>
-                        <a class="links" href="../Grids/grid.html">Grids</a>
-                    </li>
-                    <li>
-                        <a class="links" href="../List/list.html">List</a>
-                    </li>
-                    <li>
-                        <a class="links" href="../Utilities/utilities.html">Utilities</a>
-                    </li>
                 </ul>
             </div>
         </section>
         <section class="doc-content">
             <h3 class="fw-bold text-2xl">
-                Cards
+                Card
             </h3>
-
+            <p class="doc-text">A Card is a UI design pattern that groups related information in a flexible-size container.</p>
             <!-- Simple Card with Image -->
+            <div>
+                <h3 class="fw-bold text-2xl">
+                    Simple Card with Image
+                </h3>
+                <p class="doc-text">This variant of card has an image, heading, description.The card contains classes like
+                    <span class="class-highlight fw-semibold">.card</span>, 
+                    <span class="class-highlight fw-semibold">.card-body</span>,
+                    <span class="class-highlight fw-semibold">.card-image</span>,  
+                    <span class="class-highlight fw-semibold">.card-heading</span>, 
+                    <span class="class-highlight fw-semibold">.card-desc</span>
+                </p>
+            </div>
+
             <div class="component-container">
                 <div class="card">
                     <div class="card-body">
@@ -120,6 +133,10 @@
                 src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2Fcard.html&style=github-gist&showBorder=on&showCopy=on"></script>
 
             <!-- Card with Badge -->
+            <div>
+                <h3 class="text-xl fw-bold">Card with Badge</h3>
+                <p class="doc-text">Add <span class="class-highlight fw-semibold">.badge-tag</span> class to any card variant to get a badge on card. </p>
+            </div>
             <div class="component-container">
                 <div class="card">
                     <div class="card-body">
@@ -147,6 +164,10 @@
                 src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FcardBadge.html&style=github-gist&showBorder=on&showCopy=on"></script>
 
             <!-- Card with Text Overlay -->
+            <div>
+                <h3 class="text-xl fw-bold">Card with Text Overlay</h3>
+                <p class="doc-text">Add <span class="class-highlight fw-semibold">.heading-overlay</span> class to any card variant to get text overlay on card. </p>
+            </div>
             <div class="component-container">
                 <div class="card">
                     <div class="card-body">
@@ -157,7 +178,7 @@
                         </div>
                         <div class="card-heading heading-overlay">
                             <h2>The Purple View</h2>
-                            <h3>by Kurt Wagner</h3>
+                            <h2 class="text-large">by Kurt Wagner</h2>
                         </div>
                         <div class="text-sm card-desc">
                             <p>
@@ -184,6 +205,10 @@
                 src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FcardTextOverlay.html&style=github-gist&showBorder=on&showCopy=on"></script>
 
             <!-- Vertical Card -->
+            <div>
+                <h3 class="text-xl fw-bold">Vertical Card</h3>
+                <p class="doc-text">Add <span class="class-highlight fw-semibold">.card-footer</span> class with buttons components to simple image card variant to get a vertical card. </p>
+            </div>
             <div class="component-container">
                 <div class="card">
                     <div class="card-body">
@@ -221,11 +246,19 @@
                 src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FverticalCard.html&style=github-gist&showBorder=on&showCopy=on"></script>
 
             <!-- Text only Cards -->
+            <div>
+                <h3 class="text-xl fw-bold">Text only Card</h3>
+                <p class="doc-text">Add just
+                    <span class="class-highlight fw-semibold">.card</span>,   
+                    <span class="class-highlight fw-semibold">.card-heading</span>, 
+                    <span class="class-highlight fw-semibold">.card-desc</span> to get text only card.
+                    Add <span class="class-highlight fw-semibold">.card-dark</span> class to get a dark card</p>
+            </div>
             <div class="component-container">
                 <div class="card">
                     <div class="card-heading">
                         <h2>The Purple View</h2>
-                        <h3>by Kurt Wagner</h3>
+                        <h2 class="text-large">by Kurt Wagner</h2>
                     </div>
                     <div class="text-sm card-desc">
                         <p class="text-content">
@@ -237,7 +270,7 @@
                 <div class="card card-dark">
                     <div class="card-heading">
                         <h2>The Purple View</h2>
-                        <h3>by Kurt Wagner</h3>
+                        <h2 class="text-large">by Kurt Wagner</h2>
                     </div>
                     <div class="text-sm card-desc">
                         <p class="text-content">
@@ -251,12 +284,17 @@
             <script
                 src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FtextCard.html&style=github-gist&showBorder=on&showCopy=on"></script>
 
-            <!-- Dismissable Card -->
+            <!-- Dismissible Card -->
+            <div>
+                <h3 class="text-xl fw-bold">Dismissiable Card</h3>
+                <p class="doc-text">Add <span class="class-highlight fw-semibold">.icon-div</span> and
+                    <span class="class-highlight fw-semibold">.btn</span> to get a Dismissible card</p>
+            </div>
             <div class="component-container">
                 <div class="card">
                     <div class="card-heading">
                         <h2>The Purple View</h2>
-                        <h3>by Kurt Wagner</h3>
+                        <h2 class="text-large">by Kurt Wagner</h2>
                     </div>
                     <div class="text-sm card-desc">
                         <p class="text-content">
@@ -275,6 +313,17 @@
                 src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FcardDismiss.html&style=github-gist&showBorder=on&showCopy=on"></script>
 
             <!-- Horizontal Card -->
+            <div>
+                <h3 class="text-xl fw-bold">Horizontal Card</h3>
+                <p class="doc-text">This card uses classes like 
+                    <span class="class-highlight fw-semibold">.h-card</span>,   
+                    <span class="class-highlight fw-semibold">.h-card-img</span>, 
+                    <span class="class-highlight fw-semibold">.h-card-content</span> with base classes like
+                    <span class="class-highlight fw-semibold">.card</span>,   
+                    <span class="class-highlight fw-semibold">.card-heading</span> .
+        
+                </p>
+            </div>
             <div class="component-container">
                 <div class="card h-card">
                     <div>
@@ -297,6 +346,11 @@
                 src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FhorizontalCard.html&style=github-gist&showBorder=on&showCopy=on"></script>
 
             <!-- Ecommerece Product Card -->
+            <div>
+                <h3 class="text-xl fw-bold">E-Commerce Card</h3>
+                <p class="doc-text">E-Commerce Card is widely used to in ecommerce platforms to display the products details like Product image, Name, Price, with option to  add to cart or wishlist products.</p>
+            </div>
+
             <div class="component-container">
                 <div class="card-container">
                     <div class="ecom-card">
@@ -326,6 +380,16 @@
             <script
                 src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FecomCard.html&style=github-gist&showBorder=on&showCopy=on"></script>
 
+            <footer class="footer-nav">
+                <div class="prev-page">
+                    <span class="material-icons md-18">west</span>
+                    <a class="links text-small" href="../Buttons/button.html">Button</a>
+                </div>
+                <div class="next-page">
+                    <a class="links text-small" href="../Grids/grid.html">Grid</a>
+                    <span class="material-icons md-18">east</span>
+                </div>
+            </footer>
         </section>
     </main>
 </body>

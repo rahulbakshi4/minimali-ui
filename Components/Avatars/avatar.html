@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./../../css/main.css">
     <link rel="stylesheet" href="./../../css/components.css">
 
-    <title>minimali ui: Avatars</title>
+    <title>Minimali ui: Avatar</title>
 </head>
 
 <body class="bg-white">
@@ -16,9 +16,9 @@
     <nav class="navbar">
         <h2 class="text-2xl ff-title fw-semibold">minimali.</h2>
         <ul class="navbar-right text-normal">
-            <li><a class="links" href="">Home</a></li>
-            <li><a class="links" href="">Docs</a></li>
-            <li><a class="links" href="">Github</a></li>
+            <li><a class="links" href="../../index.html">Home</a></li>
+            <li><a class="links" href="../../Getting-Started/Introduction/">Docs</a></li>
+            <li><a class="links" href="https://github.com/rahulbakshi4/minimali-ui">Github</a></li>
         </ul>
     </nav>
 
@@ -28,43 +28,53 @@
             <!-- Introduction List Items -->
             <div>
                 <h3 class="fw-bold text-large">Getting Started</h3>
-                <ul class="intro-list text-sm">
+                <ul class="text-sm intro-list">
                     <li>
-                        <a class="links" href="#">Introduction</a>
+                        <a class="links" href="../../Getting-Started/Introduction/introduction.html">Introduction</a>
                     </li>
                     <li>
-                        <a class="links" href="#">Colors</a>
+                        <a class="links" href="../../Getting-Started/Colors/color.html">Colors</a>
                     </li>
                     <li>
-                        <a class="links" href="#">Typography</a>
+                        <a class="links" href="../../Getting-Started/IconsFont/icon_font.html">Icons & Font</a>
+                    </li>
+                    <li>
+                        <a class="links" href="../../Components/Utilities/utilities.html">Utilities</a>
                     </li>
                 </ul>
             </div>
+
 
             <!-- Components List Items -->
             <div>
                 <h3 class="fw-bold text-large">Components</h3>
                 <ul class="component-list text-sm">
                     <li>
-                        <a class="links" href="./avatar.html">Avatars</a>
-                    </li>
-                    <li>
                         <a class="links" href="../Alerts/alert.html">Alert</a>
                     </li>
+                    <li class="active">
+                        <a class="links" href="./avatar.html">Avatar</a>
+                    </li>
                     <li>
-                        <a class="links" href="../Badges/badge.html">Badges</a>
+                        <a class="links" href="../Badges/badge.html">Badge</a>
                     </li>
                     <li>
                         <a class="links" href="../Buttons/button.html">Button</a>
                     </li>
                     <li>
-                        <a class="links" href="../Cards/card.html">Cards</a>
+                        <a class="links" href="../Cards/card.html">Card</a>
                     </li>
                     <li>
-                        <a class="links" href="../Images/image.html">Images</a>
+                        <a class="links" href="../Grids/grid.html">Grid</a>
+                    </li>
+                    <li>
+                        <a class="links" href="../Images/image.html">Image</a>
                     </li>
                     <li>
                         <a class="links" href="../Inputs/input.html">Input</a>
+                    </li>
+                    <li>
+                        <a class="links" href="../List/list.html">List</a>
                     </li>
                     <li>
                         <a class="links" href="../Modal/modal.html">Modal</a>
@@ -78,15 +88,6 @@
                     <li>
                         <a class="links" href="../Toast/toast.html">Toast</a>
                     </li>
-                    <li>
-                        <a class="links" href="./grid.html">Grids</a>
-                    </li>
-                    <li>
-                        <a class="links" href="../List/list.html">List</a>
-                    </li>
-                    <li>
-                        <a class="links" href="../Utilities/utilities.html">Utilities</a>
-                    </li>
                 </ul>
             </div>
         </section>
@@ -94,7 +95,9 @@
             <h3 class="fw-bold text-2xl">
                 Avatars
             </h3>
-
+            <p class="doc-text">Avatar is an visual representation of a user in the interface. Avatar are widely used
+                for profile pictures. <br><br> You can add avatar to your project using Minimali by adding the <span
+                    class="class-highlight fw-semibold">.avatar</span> class to the <code> img </code> tag.</p>
             <!-- Default Avatars -->
             <div class="component-container">
                 <img class="avatar" src="https://res.cloudinary.com/rahulb4/image/upload/v1643855031/peep_rssuj0.png"
@@ -110,6 +113,12 @@
                 src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2Favatar.html&style=github-gist&showBorder=on&showCopy=on"></script>
 
             <!-- Avatars with sizes  -->
+            <h3 class="text-xl fw-bold">Sized Avatars</h3>
+            <p class="doc-text">You can also add avatars with different sizes by adding <span
+                    class="class-highlight fw-semibold">.avatar-small</span>, <span
+                    class="class-highlight fw-semibold">.avatar-medium</span>, <span
+                    class="class-highlight fw-semibold">.avatar-large</span> with base class of <span
+                    class="class-highlight fw-semibold">.avatar</span>.</p>
             <div class="component-container">
                 <img class="avatar avatar-small"
                     src="https://res.cloudinary.com/rahulb4/image/upload/v1643855031/peep_rssuj0.png"
@@ -127,6 +136,9 @@
                 src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FavatarSizes.html&style=github-gist&showBorder=on&showCopy=on"></script>
 
             <!--Squared Avatars  -->
+            <h3 class="text-xl fw-bold">Square Avatars</h3>
+            <p class="doc-text">Add the class <span class="class-highlight fw-semibold">.avatar-sq</span> to the base
+                class of avatar to get squared avatars.</p>
             <div class="component-container">
                 <img class="avatar avatar-sq"
                     src="https://res.cloudinary.com/rahulb4/image/upload/v1643855031/peep_rssuj0.png"
@@ -142,6 +154,18 @@
             <!-- Code Snippet -->
             <script
                 src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FavatarSquared.html&style=github-gist&showBorder=on&showCopy=on"></script>
+
+            <footer class="footer-nav">
+                <div class="prev-page">
+                    <span class="material-icons md-18">west</span>
+                    <a class="links" href="../Alerts/alert.html">Alert</a>
+                </div>
+                <div class="next-page">
+                    <a class="links" href="../Badges/badge.html">Badge</a>
+                    <span class="material-icons md-18">east</span>
+                </div>
+            </footer>
+
         </section>
     </main>
 </body>

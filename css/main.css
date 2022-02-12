@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
+@import url(../Getting-Started/Colors/color.css);
 /* reset CSS*/
 *{
     box-sizing: border-box;
@@ -35,7 +35,7 @@ input,button,textarea,select{
 
 .navbar{
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     padding: 2rem 2rem .5rem;   
     flex-wrap: wrap;
@@ -46,6 +46,7 @@ input,button,textarea,select{
     list-style: none;
     gap: 1rem;
     padding-left: 0;
+    margin: 0;
 }
 .links{
     color: var(--clr-dark);
@@ -133,19 +134,20 @@ input,button,textarea,select{
 }
 
 .intro-list,
-.component-list {
+.component-list,.text-size-list {
     padding-left: 0;
     list-style: none;
 }
 .intro-list li,
-.component-list li {
+.component-list li, .text-size-list li {
     padding: 0.5rem;
+    border-radius: 5px;
 }
 
 .intro-list li:hover,
-.component-list li:hover {
+.component-list li:hover, .active {
     font-weight: 600;
-    background: var(--clr-gray);
+    background: var(--clr-gray-light);
     border-radius: 4px;
 }
 
@@ -153,6 +155,10 @@ input,button,textarea,select{
     flex-grow: 1;
     padding: 2rem;
 }
+.doc-content h3{
+    border-bottom: 1px solid var(--clr-gray);
+}
+
 
 .component-container {
     display: flex;
@@ -169,6 +175,46 @@ input,button,textarea,select{
     transition: box-shadow 300ms ease 0ms;
 }
 
+.doc-text{
+    padding: 2rem 0;
+    text-align: justify;
+}
+
+
+.footer-nav {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.footer-links{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    font-size: 1.125rem;
+}
+.prev-page,
+.next-page {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0.25rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 8px;
+}
+.prev-page:hover,
+.next-page:hover {
+  background-color: var(--clr-gray-light);
+}
+
+.next-page {
+  margin-left: auto;
+}
+
+.class-highlight{
+    background-color: var(--clr-gray-light);
+    padding: .25rem;
+    border-radius: 5px;
+}
 
 @media only screen and (max-width: 800px ){
      .hero-image-container{
@@ -184,6 +230,9 @@ input,button,textarea,select{
      .side-bar{
          display: none;
      }
+     .footer-links{
+        justify-content: center;
+     }
      
 }
 @media only screen and (max-width: 600px ){
@@ -192,6 +241,9 @@ input,button,textarea,select{
      }
      .doc-content{
          width: 80%;
+     }
+     .navbar{
+         padding-inline: 1rem;
      }
 
 }

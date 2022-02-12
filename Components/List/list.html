@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="./../../css/main.css">
     <link rel="stylesheet" href="./../../css/components.css">
 
-    <title>minimali ui: List</title>
+    <title>Minimali ui: List</title>
 </head>
 
 <body class="bg-white">
     <nav class="navbar">
         <h2 class="text-2xl ff-title fw-semibold">minimali.</h2>
         <ul class="navbar-right text-normal">
-            <li><a class="links" href="">Home</a></li>
-            <li><a class="links" href="">Docs</a></li>
-            <li><a class="links" href="">Github</a></li>
+            <li><a class="links" href="../../index.html">Home</a></li>
+            <li><a class="links" href="../../Getting-Started/Introduction/">Docs</a></li>
+            <li><a class="links" href="https://github.com/rahulbakshi4/minimali-ui">Github</a></li>
         </ul>
     </nav>
 
@@ -29,13 +29,16 @@
                 <h3 class="fw-bold text-large">Getting Started</h3>
                 <ul class="text-sm intro-list">
                     <li>
-                        <a class="links" href="#">Introduction</a>
+                        <a class="links" href="../../Getting-Started/Introduction/introduction.html">Introduction</a>
                     </li>
                     <li>
-                        <a class="links" href="#">Colors</a>
+                        <a class="links" href="../../Getting-Started/Colors/color.html">Colors</a>
                     </li>
                     <li>
-                        <a class="links" href="#">Typography</a>
+                        <a class="links" href="../../Getting-Started/IconsFont/icon_font.html">Icons & Font</a>
+                    </li>
+                    <li>
+                        <a class="links" href="../../Components/Utilities/utilities.html">Utilities</a>
                     </li>
                 </ul>
             </div>
@@ -45,25 +48,31 @@
                 <h3 class="fw-bold text-large">Components</h3>
                 <ul class="text-sm component-list">
                     <li>
-                        <a class="links" href="../Avatars/avatar.html">Avatars</a>
-                    </li>
-                    <li>
                         <a class="links" href="../Alerts/alert.html">Alert</a>
                     </li>
                     <li>
-                        <a class="links" href="../Badges/badge.html">Badges</a>
+                        <a class="links" href="../Avatars/avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                        <a class="links" href="../Badges/badge.html">Badge</a>
                     </li>
                     <li>
                         <a class="links" href="../Buttons/button.html">Button</a>
                     </li>
                     <li>
-                        <a class="links" href="../Cards/card.html">Cards</a>
+                        <a class="links" href="../Cards/card.html">Card</a>
                     </li>
                     <li>
-                        <a class="links" href="../Images/image.html">Images</a>
+                        <a class="links" href="../Grids/grid.html">Grid</a>
+                    </li>
+                    <li>
+                        <a class="links" href="../Images/image.html">Image</a>
                     </li>
                     <li>
                         <a class="links" href="../Inputs/input.html">Input</a>
+                    </li>
+                    <li class="active">
+                        <a class="links" href="./list.html">List</a>
                     </li>
                     <li>
                         <a class="links" href="../Modal/modal.html">Modal</a>
@@ -77,24 +86,28 @@
                     <li>
                         <a class="links" href="../Toast/toast.html">Toast</a>
                     </li>
-                    <li>
-                        <a class="links" href="../Grids/grid.html">Grids</a>
-                    </li>
-                    <li>
-                        <a class="links" href="./list.html">List</a>
-                    </li>
-                    <li>
-                        <a class="links" href="../Utilities/utilities.html">Utilities</a>
-                    </li>
                 </ul>
             </div>
         </section>
         <section class="doc-content">
             <h3 class="fw-bold text-2xl">
-                Rating
+                List
             </h3>
+            <p class="doc-text"> The list component is a continuous group of text, images and icons that may contain
+                primary or supplemental actions.</p>
 
             <!-- Basic Lists -->
+            <div>
+                <h3 class="text-xl fw-bold">Basic List</h3>
+                <p class="doc-text">Basic List can be implemented using <span
+                        class="class-highlight fw-semibold">.list-group</span>, <span
+                        class="class-highlight fw-semibold">.list-title</span>, <span
+                        class="class-highlight fw-semibold">.list-item</span> classes. <br><br> The default list come with
+                    no list style but disc and decimal list style can be added using <span
+                        class="class-highlight fw-semibold">.list-disc</span> and <span
+                        class="class-highlight fw-semibold">.list-decimal</span> classes. </p>
+
+            </div>
             <div class="component-container">
                 <ul class="list-group">
                     <div class="list-title text-large">
@@ -152,6 +165,10 @@
             <script
                 src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2Flist.html&style=github-gist&showBorder=on&showCopy=on"></script>
 
+            <div>
+                <h3 class="fw-bold text-xl">Stacked List</h3>
+                <p class="doc-text">Another list variant available with Minimali is the stacked list. A stacked list can have avatars, list content and buttons.</p>
+            </div>
             <!-- Stacked-Lists -->
             <div class="component-container">
                 <ul class="stacked-list">
@@ -183,6 +200,17 @@
             <!-- Code Snippet -->
             <script
                 src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FstackedList.html&style=github-gist&showBorder=on&showCopy=on"></script>
+            <footer class="footer-nav">
+                <div class="prev-page">
+                    <span class="material-icons md-18">west</span>
+                    <a class="links text-small" href="../Inputs/input.html">Input</a>
+                </div>
+                <div class="next-page">
+                    <a class="links text-small" href="../Modal/modal.html">Modal</a>
+                    <span class="material-icons md-18">east</span>
+                </div>
+            </footer>
+
         </section>
     </main>
 </body>

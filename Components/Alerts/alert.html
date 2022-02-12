@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="./../../css/main.css">
     <link rel="stylesheet" href="./../../css/components.css">
 
-    <title>minimali ui: Alerts</title>
+    <title>Minimali ui: Alert</title>
 </head>
 
 <body class="bg-white">
     <nav class="navbar">
         <h2 class="text-2xl ff-title fw-semibold">minimali.</h2>
         <ul class="navbar-right text-normal">
-            <li><a class="links" href="">Home</a></li>
-            <li><a class="links" href="">Docs</a></li>
-            <li><a class="links" href="">Github</a></li>
+            <li><a class="links" href="../../index.html">Home</a></li>
+            <li><a class="links" href="../../Getting-Started/Introduction/">Docs</a></li>
+            <li><a class="links" href="https://github.com/rahulbakshi4/minimali-ui">Github</a></li>
         </ul>
     </nav>
 
@@ -28,13 +28,16 @@
                 <h3 class="fw-bold text-large">Getting Started</h3>
                 <ul class="text-sm intro-list">
                     <li>
-                        <a class="links" href="#">Introduction</a>
+                        <a class="links" href="../../Getting-Started/Introduction/introduction.html">Introduction</a>
                     </li>
                     <li>
-                        <a class="links" href="#">Colors</a>
+                        <a class="links" href="../../Getting-Started/Colors/color.html">Colors</a>
                     </li>
                     <li>
-                        <a class="links" href="#">Typography</a>
+                        <a class="links" href="../../Getting-Started/IconsFont/icon_font.html">Icons & Font</a>
+                    </li>
+                    <li>
+                        <a class="links" href="../../Components/Utilities/utilities.html">Utilities</a>
                     </li>
                 </ul>
             </div>
@@ -43,26 +46,32 @@
             <div>
                 <h3 class="fw-bold text-large">Components</h3>
                 <ul class="text-sm component-list">
-                    <li>
-                        <a class="links" href="../Avatars/avatar.html">Avatars</a>
+                    <li class="active">
+                        <a class="links" href="../Alerts/alert.html">Alert</a>
                     </li>
                     <li>
-                        <a class="links" href="./alert.html">Alert</a>
+                        <a class="links" href="../Avatars/avatar.html">Avatar</a>
                     </li>
                     <li>
-                        <a class="links" href="../Badges/badge.html">Badges</a>
+                        <a class="links" href="../Badges/badge.html">Badge</a>
                     </li>
                     <li>
                         <a class="links" href="../Buttons/button.html">Button</a>
                     </li>
                     <li>
-                        <a class="links" href="../Cards/card.html">Cards</a>
+                        <a class="links" href="../Cards/card.html">Card</a>
                     </li>
                     <li>
-                        <a class="links" href="../Images/image.html">Images</a>
+                        <a class="links" href="../Grids/grid.html">Grid</a>
+                    </li>
+                    <li>
+                        <a class="links" href="../Images/image.html">Image</a>
                     </li>
                     <li>
                         <a class="links" href="../Inputs/input.html">Input</a>
+                    </li>
+                    <li>
+                        <a class="links" href="../List/list.html">List</a>
                     </li>
                     <li>
                         <a class="links" href="../Modal/modal.html">Modal</a>
@@ -76,25 +85,31 @@
                     <li>
                         <a class="links" href="../Toast/toast.html">Toast</a>
                     </li>
-                    <li>
-                        <a class="links" href="../Grids/grid.html">Grids</a>
-                    </li>
-                    <li>
-                        <a class="links" href="../List/list.html">List</a>
-                    </li>
-                    <li>
-                        <a class="links" href="../Utilities/utilities.html">Utilities</a>
-                    </li>
                 </ul>
             </div>
         </section>
 
         <section class="doc-content">
-            <h3 class="fw-bold text-2xl">
-                Alerts
-            </h3>
+            <div>
+                <h3 class="fw-bold text-2xl">
+                    Alerts
+                </h3>
+                <p class="doc-text">
+                    Alerts are used to provide users with important information or messages
+                </p>
+            </div>
 
             <!-- ALerts -->
+            <div>
+                <h3 class="fw-bold text-xl">
+                    Basic Alert
+                </h3>
+                <p class="doc-text">Basic alert can be added using the <span
+                        class="class-highlight fw-semibold">.alert</span> class. You can add different state to the
+                    alert by adding a variant class to the base class using <span
+                        class="class-highlight fw-semibold">.alert--variant</span>. The variant available are <i>info,
+                        success, warning and error.</i></p>
+            </div>
             <div class="component-container items-col fw-semibold">
                 <div class="alert">
                     Alert: This is default alert
@@ -103,21 +118,31 @@
                     Info: This is info alert
                 </div>
                 <div class="alert alert--success">
-                    Sucess: This is success alert
+                    Success: This is success alert
                 </div>
                 <div class="alert alert--error">
-                    Error: This is warning alert
+                    Error: This is an error alert
                 </div>
                 <div class="alert alert--warning">
                     Warning: This is warning alert
                 </div>
-
-                <!-- Code Snippet -->
+            </div>
+            <!-- Code Snippet -->
+            <div class="code-snippet">
                 <script
                     src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2Falert.html&style=github-gist&showBorder=on&showCopy=on"></script>
             </div>
 
             <!-- Outlined Alerts -->
+            <div>
+                <h3 class="fw-bold text-xl">
+                    Outlined Alert
+                </h3>
+                <p class="doc-text">Outlined alert can be added using the <span
+                        class="class-highlight fw-semibold">.outline--variant</span> class with the base <span
+                        class="class-highlight fw-semibold">.alert</span> class.
+                </p>
+            </div>
             <div class="component-container items-col fw-semibold">
                 <div class="alert outline--default">
                     Default: This is default outlined alert
@@ -134,11 +159,22 @@
                 <div class="alert outline--warning">
                     Warning: This is warning outlined alert
                 </div>
-
-                <!-- Code Snippet -->
-                <script
-                    src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FalertOutlined.html&style=github-gist&showBorder=on&showCopy=on"></script>
             </div>
+            <!-- Code Snippet -->
+            <script
+                src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FalertOutlined.html&style=github-gist&showBorder=on&showCopy=on"></script>
+
+
+            <footer class="footer-nav">
+                <div class="prev-page">
+                    <span class="material-icons md-18">west</span>
+                    <a class="links" href="#">Get Started</a>
+                </div>
+                <div class="next-page">
+                    <a class="links" href="../Avatars/avatar.html">Avatar</a>
+                    <span class="material-icons md-18">east</span>
+                </div>
+            </footer>
         </section>
     </main>
 </body>

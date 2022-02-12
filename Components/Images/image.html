@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="./../../css/main.css">
     <link rel="stylesheet" href="./../../css/components.css">
 
-    <title>minimali ui: Images</title>
+    <title>Minimali ui: Images</title>
 </head>
 
 <body class="bg-white">
     <nav class="navbar">
         <h2 class="text-2xl ff-title fw-semibold">minimali.</h2>
         <ul class="navbar-right text-normal">
-            <li><a class="links" href="">Home</a></li>
-            <li><a class="links" href="">Docs</a></li>
-            <li><a class="links" href="">Github</a></li>
+            <li><a class="links" href="../../index.html">Home</a></li>
+            <li><a class="links" href="../../Getting-Started/Introduction/">Docs</a></li>
+            <li><a class="links" href="https://github.com/rahulbakshi4/minimali-ui">Github</a></li>
         </ul>
     </nav>
 
@@ -29,13 +29,16 @@
                 <h3 class="fw-bold text-large">Getting Started</h3>
                 <ul class="text-sm intro-list">
                     <li>
-                        <a class="links" href="#">Introduction</a>
+                        <a class="links" href="../../Getting-Started/Introduction/introduction.html">Introduction</a>
                     </li>
                     <li>
-                        <a class="links" href="#">Colors</a>
+                        <a class="links" href="../../Getting-Started/Colors/color.html">Colors</a>
                     </li>
                     <li>
-                        <a class="links" href="#">Typography</a>
+                        <a class="links" href="../../Getting-Started/IconsFont/icon_font.html">Icons & Font</a>
+                    </li>
+                    <li>
+                        <a class="links" href="../../Components/Utilities/utilities.html">Utilities</a>
                     </li>
                 </ul>
             </div>
@@ -45,10 +48,10 @@
                 <h3 class="fw-bold text-large">Components</h3>
                 <ul class="text-sm component-list">
                     <li>
-                        <a class="links" href="../Avatars/avatar.html">Avatars</a>
+                        <a class="links" href="../Alerts/alert.html">Alert</a>
                     </li>
                     <li>
-                        <a class="links" href="../Alerts/alert.html">Alert</a>
+                        <a class="links" href="../Avatars/avatar.html">Avatars</a>
                     </li>
                     <li>
                         <a class="links" href="../Badges/badge.html">Badges</a>
@@ -60,10 +63,16 @@
                         <a class="links" href="../Cards/card.html">Cards</a>
                     </li>
                     <li>
+                        <a class="links" href="../Grids/grid.html">Grids</a>
+                    </li>
+                    <li class="active">
                         <a class="links" href="./image.html">Images</a>
                     </li>
                     <li>
                         <a class="links" href="../Inputs/input.html">Input</a>
+                    </li>
+                    <li>
+                        <a class="links" href="../List/list.html">List</a>
                     </li>
                     <li>
                         <a class="links" href="../Modal/modal.html">Modal</a>
@@ -77,42 +86,68 @@
                     <li>
                         <a class="links" href="../Toast/toast.html">Toast</a>
                     </li>
-                    <li>
-                        <a class="links" href="../Grids/grid.html">Grids</a>
-                    </li>
-                    <li>
-                        <a class="links" href="../List/list.html">List</a>
-                    </li>
-                    <li>
-                        <a class="links" href="../Utilities/utilities.html">Utilities</a>
-                    </li>
                 </ul>
             </div>
         </section>
         <section class="doc-content">
             <h3 class="fw-bold text-2xl">
-                Images
+                Image
             </h3>
+            <p class="doc-text">Image are so widely used all over the web. The image component provides a flexible
+                interface for displaying different types of images.</p>
+            <p class="doc-text">Minimali has 3 variants of image component <i>sqaure, round and responsive image.</i>
+            </p>
 
             <!-- Square Images -->
+            <div>
+                <h3 class="text-xl fw-bold">
+                    Sqaure Image
+                </h3>
+                <p class="doc-text">Add <span class="class-highlight fw-semibold">.sq-image</span> class to
+                    <code>img</code> tag to get a square image.</p>
+            </div>
             <div class="component-container">
                 <img class="sq-image" src="https://picsum.photos/200/300?random=1" alt="square image 1" />
                 <img class="sq-image" src="https://picsum.photos/200/300?random=2" alt="sqaure image 2" />
             </div>
 
+
             <!-- Code Snippet -->
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FimageSq.html&style=github-gist&showBorder=on&showCopy=on"></script>
-            
+            <script
+                src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FimageSq.html&style=github-gist&showBorder=on&showCopy=on"></script>
+
+            <p class="doc-text">Square image has a default dimension of 240x240 px.</p>
+
             <!-- Round Images -->
+            <div>
+                <h3 class="text-xl fw-bold">
+                    Round Image
+                </h3>
+                <p class="doc-text">Add <span class="class-highlight fw-semibold">.round-image</span> class to
+                    <code>img</code> tag to get a round image.</p>
+            </div>
             <div class="component-container">
                 <img class="round-image" src="https://picsum.photos/200/300?random=3" alt="round image 1" />
                 <img class="round-image" src="https://picsum.photos/200/300?random=4" alt="round image 2" />
             </div>
 
             <!-- Code Snippet -->
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FimageRound.html&style=github-gist&showBorder=on&showCopy=on"></script>
+            <script
+                src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FimageRound.html&style=github-gist&showBorder=on&showCopy=on"></script>
+
+            <p class="doc-text">Round image has a default dimension of 240x240 px.</p>
 
             <!-- Responsive Image -->
+            <div>
+                <h3 class="text-xl fw-bold">
+                    Responsive Image
+                </h3>
+                <p class="doc-text">Responsive Image Component are used to dsiplay Images on websites, which are screen
+                    responsive. They expand upto the width of the container they are in.
+                </p>
+                <p class="doc-text">Add <span class="class-highlight fw-semibold">.rsp-image</span> class to
+                    <code>img</code> tag to get a responsive image.</p>
+            </div>
             <div class="component-container">
                 <img class="rsp-image"
                     src="https://images.unsplash.com/photo-1643779374814-3abaf4546e30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
@@ -120,8 +155,19 @@
             </div>
 
             <!-- Code Snippet -->
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FrespImg.html&style=github-gist&showBorder=on&showCopy=on"></script>
-
+            <script
+                src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2FrespImg.html&style=github-gist&showBorder=on&showCopy=on"></script>
+                <p class="doc-text">Resize the browser to see the responsive nature.</p>
+            <footer class="footer-nav">
+                <div class="prev-page">
+                    <span class="material-icons md-18">west</span>
+                    <a class="links text-small" href="../Grids/grid.html">Grid</a>
+                </div>
+                <div class="next-page">
+                    <a class="links text-small" href="../Inputs/input.html">Input</a>
+                    <span class="material-icons md-18">east</span>
+                </div>
+            </footer>
         </section>
     </main>
 </body>
