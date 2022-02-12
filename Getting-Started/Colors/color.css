@@ -1,0 +1,46 @@
+.color-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 6rem;
+    aspect-ratio: 1/1;
+    font-size: .875rem;
+    border: 1px solid var(--clr-gray);
+    padding: .5rem .5rem;
+}
+
+.bg-accent{
+    background-color: var(--clr-accent);
+}
+.bg-primary{
+    background-color: var(--clr-primary);
+}
+.bg-primary-light{
+    background-color: var(--clr-primary-light);
+}
+.bg-secondary{
+    background-color: var(--clr-secondary);
+}
+.bg-success{
+    background-color: var(--clr-success);
+}
+.bg-success-light{
+    background-color: var(--clr-success-light);
+}
+
+.bg-failure{
+   background-color: var(--clr-failure);
+}
+.bg-failure-light{
+  background-color: var(--clr-failure-light);
+}
+.bg-warning{
+ background-color: var(--clr-warning);
+}
+.bg-warning-light{
+ background-color: var(--clr-warning-light);
+}
+
+.bg-gray-light{
+    background-color: var(--clr-gray-light);
+}
