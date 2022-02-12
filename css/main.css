@@ -196,7 +196,6 @@ input,button,textarea,select{
 .next-page {
   display: flex;
   align-items: center;
-  width: 100%;
   gap: 0.25rem;
   padding: 0.5rem 0.5rem;
   border-radius: 8px;
