@@ -26,6 +26,7 @@ Minimali provides a clean , accessible and customisiable collection of web compo
 - [Modal](https://minimali-ui.vercel.app/Components/Modal/modal.html)
 - [Navigation](https://minimali-ui.vercel.app/Components/Navigation/navigation.html)
 - [Rating](https://minimali-ui.vercel.app/Components/Ratings/rating.html)
+- [Slider](https://minimali-ui.vercel.app/Components/Slider/slider.html)
 - [Toast](https://minimali-ui.vercel.app/Components/Toast/toast.html)
 
 ## Installation  
