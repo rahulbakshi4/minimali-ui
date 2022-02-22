@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./../../css/components.css">
     <link rel="icon" href="https://res.cloudinary.com/rahulb4/image/upload/v1645370145/favicon.ico">
 
-    <title>Minimali ui: Grid</title>
+    <title>Minimali ui: Slider</title>
 </head>
 
 <body class="bg-white">
@@ -63,8 +63,8 @@
                     <li>
                         <a class="links" href="../Cards/card.html">Card</a>
                     </li>
-                    <li class="active">
-                        <a class="links" href="./grid.html">Grid</a>
+                    <li>
+                        <a class="links" href="../Grids/grid.html">Grid</a>
                     </li>
                     <li>
                         <a class="links" href="../Images/image.html">Image</a>
@@ -84,8 +84,8 @@
                     <li>
                         <a class="links" href="../Ratings/rating.html">Rating</a>
                     </li>
-                    <li>
-                        <a class="links" href="../Slider/slider.html">Slider</a>
+                    <li class="active">
+                        <a class="links" href="./slider.html">Slider</a>
                     </li>
                     <li>
                         <a class="links" href="../Toast/toast.html">Toast</a>
@@ -95,80 +95,36 @@
         </section>
         <section class="doc-content">
             <h3 class="fw-bold text-2xl">
-                Simplified Grid
+                Slider
             </h3>
-            <p class="doc-text">Grid component is used to implement the grid layout. Minimali has two grid component
-                variants <i>2 Column Grid and 3 Column Grid</i></p>
+            <p class="doc-text">Slider are widely used to represent user input of range type. Use
+                the <span class="class-highlight fw-semibold">.range-slider</span>class to implement slider.</p>
 
-            <div>
-                <h3 class="text-xl fw-bold">2 Column Grid</h3>
-                <p class="doc-text">Add <span class="class-highlight fw-semibold">.grid-2-col</span> class with
-                    base class of <span class="class-highlight fw-semibold">.grid</span> to get a 2 column grid layout.
-                </p>
-            </div>
             <div class="component-container">
-                <div class="grid grid-2-col">
-                    <div class="card card-dark">
-                        <p class="text-large card-desc">
-                            With every experience, you alone are painting your own canvas,
-                            thought by thought, choice by choice. - Oprah Winfrey
-                        </p>
-                    </div>
-                    <div class="card card-dark">
-                        <p class="text-large card-desc">
-                            I start to think and then I sink Into the paper like I was ink
-                            When I'm writing, I'm trapped in between the lines I escape when
-                            I finish the rhyme. - Rakim
-                        </p>
-                    </div>
+                <div class="text-sm range-slider">
+                    <span>&#8377;1</span>
+                    <input type="range" min="1" max="100">
+                    <span>&#8377;1000</span>
                 </div>
-            </div>
-            <!-- Code Snippet -->
-            <script
-                src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2Fgrid2.html&style=github-gist&showBorder=on&showCopy=on"></script>
-
-            <div>
-                <h3 class="text-xl fw-bold">3 Column Grid</h3>
-                <p class="doc-text">Add <span class="class-highlight fw-semibold">.grid-3-col</span> class with
-                    base class of <span class="class-highlight fw-semibold">.grid</span> to get a 3 column grid layout.
-                </p>
-            </div>
-            <div class="component-container">
-                <div class="grid grid-3-col">
-                    <div class="card card-dark">
-                        <p class="text-large card-desc">
-                            With every experience, you alone are painting your own canvas,
-                            thought by thought, choice by choice. - Oprah Winfrey
-                        </p>
-                    </div>
-                    <div class="card card-dark">
-                        <p class="text-large card-desc">
-                            I start to think and then I sink Into the paper like I was ink
-                            When I'm writing, I'm trapped in between the lines I escape when
-                            I finish the rhyme. - Rakim
-                        </p>
-                    </div>
-                    <div class="card card-dark">
-                        <p class="text-large card-desc">
-                            Who Am I? That which remains when you remove all the things that
-                            you are not. - Kapil Gupta
-                        </p>
-                    </div>
+                <div class="text-sm range-slider">
+                    <span class="material-icons">volume_down</span>
+                    <input type="range" min="0" max="100">
+                    <span class="material-icons">volume_up</span>
                 </div>
             </div>
 
+
             <!-- Code Snippet -->
             <script
-                src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2Fgrid3.html&style=github-gist&showBorder=on&showCopy=on"></script>
-
+                src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Frahulbakshi4%2Fcode-snippets%2Fblob%2Fmain%2Fslider.html&style=github-gist&showBorder=on&showCopy=on"></script>
 
             <footer class="footer-nav">
                 <div class="prev-page">
                     <span class="material-icons md-18">west</span>
-                    <a class="links text-small" href="../Cards/card.html">Card</a>
+                    <a class="links text-small" href="../Navigation/navigation.html">Rating</a>
                 </div>
                 <div class="next-page">
-                    <a class="links text-small" href="../Images/image.html">Image</a>
+                    <a class="links text-small" href="../Toast/toast.html">Toast</a>
                     <span class="material-icons md-18">east</span>
                 </div>
             </footer>
