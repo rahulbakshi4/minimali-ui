@@ -20,7 +20,7 @@ Minimali provides a clean , accessible and customisiable collection of web compo
 - [Button](https://minimali-ui.vercel.app/Components/Buttons/button.html)
 - [Card](https://minimali-ui.vercel.app/Components/Cards/card.html)
 - [Grid](https://minimali-ui.vercel.app/Components/Grids/grid.html)
-- [Image](https://minimali-ui.vercel.app/Components/Images/image.htmlx)
+- [Image](https://minimali-ui.vercel.app/Components/Images/image.html)
 - [Input](https://minimali-ui.vercel.app/Components/Inputs/input.html)
 - [List](https://minimali-ui.vercel.app/Components/List/list.html)
 - [Modal](https://minimali-ui.vercel.app/Components/Modal/modal.html)
